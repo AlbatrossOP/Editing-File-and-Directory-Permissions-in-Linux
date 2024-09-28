@@ -24,6 +24,7 @@ The first line of the screenshot displays the command I entered, and the other l
 <br />
 <p align="center">
 Changing File Permissions:  <br/>
+
 "other" shouldn't have write access to any of their files. To comply with this, I referred to the file permissions that I previously returned. I determined project_k.txt must have the write access removed for other. The following code demonstrates how I used Linux commands to do this:
 
 <img src="https://i.imgur.com/NHnp6ea.png" height="80%" width="80%" alt="Changing File Permissions"/>
@@ -41,6 +42,7 @@ The first two lines of the screenshot display the commands I entered, and the ot
 <br />
 <p align="center">
 Chaning Directory Permissions:  <br/>
+
 I only want the "researcher2" user to have access to the "drafts" directory and its contents. This means that no one other than "researcher2" should have execute permissions. The following code demonstrates how I used Linux commands to change the permissions:
 
 
