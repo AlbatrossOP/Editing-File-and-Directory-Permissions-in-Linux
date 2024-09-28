@@ -22,6 +22,7 @@ The following code demonstrates how I used Linux commands to determine the exist
 <br />
 The first line of the screenshot displays the command I entered, and the other lines display the output. The code lists all contents of the "projects" directory. I used the "ls" command with the "-la" option to display a detailed listing of the file contents that also returned hidden files. The output of my command indicates that there is one directory named "drafts", one hidden file named ".project_x.txt", and five other project files. The 10-character string in the first column represents the permissions set on each file or directory.
 <br />
+
 <p align="center">
 Changing File Permissions:  <br/>
 
@@ -31,6 +32,7 @@ Changing File Permissions:  <br/>
 <br />
 The first two lines of the screenshot display the commands I entered, and the other lines display the output of the second command. The "chmod" command changes the permissions on files and directories. The first argument indicates what permissions should be changed, and the second argument specifies the file or directory. In this example, I removed write permissions from other for the "project_k.txt" file. After this, I used "ls -la" to review the updates I made.
 <br />
+
 <p align="center">
 Changing Permissions on Hidden Files: <br/>
 
@@ -40,6 +42,7 @@ In this scenario, "project_x.txt" has recently been archived. I do not want anyo
 <br />
 The first two lines of the screenshot display the commands I entered, and the other lines display the output of the second command. I know ".project_x.txt" is a hidden file because it starts with a period (.). In this example, I removed write permissions from the user and group, and added read permissions to the group. I removed write permissions from the user with "u-w". Then, I removed write permissions from the group with "g-w", and added read permissions to the group with "g+r". 
 <br />
+
 <p align="center">
 Chaning Directory Permissions:  <br/>
 
